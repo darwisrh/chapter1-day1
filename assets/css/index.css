@@ -1,0 +1,101 @@
+body {
+    background-color: rgb(219, 219, 219);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* CARD PROFILE */
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 100px 50px;
+}
+
+.container .card {
+    background-color: rgb(252, 252, 252);
+    border-radius: 10px;
+    width: 600px;
+    padding: 60px 300px;
+    box-shadow: 0px 10px 10px rgb(141, 141, 141);
+}
+
+.card p {
+    text-align: justify;
+    margin: 0px;
+}
+
+.card button {
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: white;
+    font-size: 18px;
+    margin: 20px 0px 20px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 10px rgb(110, 110, 110);
+}
+
+.card div .a {
+    color: black;
+    text-decoration: none;
+}
+
+.card div .a:hover {
+    font-weight: 500;
+}
+
+.card div .img {
+    width: 20px;
+}
+
+.card .table {
+    display: flex;
+    justify-content: center;
+}
+
+.card table img {
+    margin-top: 30px;
+    width: 40px;
+}
+
+.card table th .img2 {
+    margin-right: 20px;
+}
+
+.card2 {
+    margin-top: 40px;
+}
+
+.card .card2 {
+    display: flex;
+    justify-content: center;
+}
+
+.card2 .c-cont {
+    width: 350px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgb(190, 190, 190);
+}
+
+.card .c-cont img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.c-cont h3 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.c-cont p {
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 10px;
+}
